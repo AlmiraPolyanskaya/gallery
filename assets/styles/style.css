@@ -1,8 +1,18 @@
+/*Пускай волшебство поможет этому коду заработать!*/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 aside {
     border-top: 1px;
     border-bottom: 1px;
 }
 
+object {
+    width: 100vw;
+    height: 50vh;
+}
 .picture {
     width: 220px;
     height: 180px;
@@ -17,6 +27,26 @@ li {
 section {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+figcaption {
+font-size: small;
+}
+
+figure :hover {
+background-color: yellow;
+font-size: large;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 80px;
+    font-weight: 800;
 }
